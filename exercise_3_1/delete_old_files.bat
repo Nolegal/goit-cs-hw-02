@@ -1,0 +1,1 @@
+forfiles /p "C:\some\file\name\here" /s /m * .docx /d -3 /c "cmd /c del @path"
